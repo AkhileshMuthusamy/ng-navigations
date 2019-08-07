@@ -1,4 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.float-right {
+  float: right;
+}
+
+.d-block {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.align-middle {
+  margin: auto;
+  overflow: auto;
+}
+
+.pm-0 {
+  padding: 0px;
+  margin: 0px;
+}
+/* Remove line hight */
+.rm-ln-ht {
+  line-height: 0px;
+}
+
+.icon-1-5x {
+  transform: scale(1.5);
+}
+
+.icon-2x {
+  transform: scale(2);
+}
+
+.icon-3x {
+  transform: scale(3);
+}
