@@ -1,0 +1,53 @@
+<div class="main-container">
+  <mat-drawer-container class="drw-container" fullscreen>
+    <mat-drawer #drawer mode="side">
+      <button mat-icon-button (click)="drawer.close()" class="float-right">
+        <mat-icon>close</mat-icon>
+      </button>
+
+      <p>Dashboard</p>
+    </mat-drawer>
+
+    <!-- Drawer Content goes here -->
+    <div class="drawer-content">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+        provident aliquam consequatur, odit itaque necessitatibus voluptate. Ex
+        magni corporis facere aliquam dolore officiis sequi quos dolorum
+        perspiciatis? Facere in ea iste, nisi maxime magnam aspernatur vel at
+        animi repellat ipsam? Atque dolore debitis excepturi quidem quae
+        nesciunt aliquam, fugit mollitia.
+      </p>
+    </div>
+  </mat-drawer-container>
+
+  <!-- Elements to trigger drawer -->
+  <div class="side-bar">
+    <!-- Non material way -->
+    <!-- <ul>
+      <li (click)="drawer.toggle()">
+        <mat-icon>home</mat-icon>
+      </li>
+      <li (click)="drawer.toggle()">
+        <a color="primary">
+          <mat-icon>add</mat-icon>
+          <span style="display: block">Add</span>
+        </a>
+      </li>
+    </ul> -->
+
+    <ul class="mat-side-bar">
+      <li (click)="drawer.toggle()">
+        <button mat-button>
+          <mat-icon class="icon-1-5x">donut_large</mat-icon>
+        </button>
+      </li>
+      <li (click)="drawer.toggle()">
+        <a mat-button color="primary">
+          <mat-icon class="icon-1-5x">add</mat-icon>
+          <span class="d-block pm-0 mat-nav-label">ADD</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
