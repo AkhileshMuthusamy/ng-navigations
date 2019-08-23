@@ -6,7 +6,7 @@ body {
 }
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
 
 .float-right {
@@ -26,6 +26,10 @@ ul {
 li {
   padding: 0;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .align-middle {

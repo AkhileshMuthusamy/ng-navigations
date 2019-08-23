@@ -8,13 +8,15 @@ import { MaterialModule } from './shared/modules/material.module';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { NavDrawerComponent } from './nav-drawer/nav-drawer.component';
 import { NavDrawerQtiComponent } from './nav-drawer-qti/nav-drawer-qti.component';
+import { NavBarSubmenusComponent } from './nav-bar-submenus/nav-bar-submenus.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidenavComponent,
     NavDrawerComponent,
-    NavDrawerQtiComponent
+    NavDrawerQtiComponent,
+    NavBarSubmenusComponent
   ],
   imports: [
     BrowserModule,
